@@ -1,0 +1,6 @@
+f=open('Tale_gold_fish.txt','w')
+f.close()
+f1=open('1.txt','r').readline().strip('#')
+f=open('Tale_gold_fish.txt','w')
+f.write(f1)
+f.close()
